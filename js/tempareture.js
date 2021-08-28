@@ -1,7 +1,7 @@
 const button = document.querySelector('button');
 function getAPIData() {
     const input = document.querySelector('input');
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${input.value}&units=metric&appid=d7ed9319d84e3e9ea246209e9459ffe0`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${input.value}&units=metric&appid=d7ed9319d84e3e9ea246209e9459ffe0`
     fetch(url)
     .then(res => res.json())
     .then(data => showData(data))
@@ -21,7 +21,6 @@ function showData(data){
             <h4>Weather: ${data.weather[0].main}</h4>
             <h4>Humidity: ${data.main.humidity}%</h4>
     `
-
 }
 
 function handleEnter(e){

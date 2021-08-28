@@ -51,7 +51,6 @@ body{
     border-radius: 0 5px 5px 0;
     border:3px solid #fa2372;
     cursor: pointer;
-    transition: all 0.3s;
     padding-left:15px;
     padding-right:15px;
 }
@@ -65,10 +64,6 @@ body{
     margin:50px auto;
 }
 #info-parent{
-    display:grid;
-    grid-template-columns: repeat(1fr, 1);
-    grid-row-gap: 10px;
-    justify-items: center;
     font-family: 'Open sans', serif;
     color:white;
     text-align: center;
