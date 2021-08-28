@@ -1,0 +1,89 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background:url(../images/bg-image.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding:50px;
+}
+
+/* Form Section  */
+.container{
+    max-width: 600px;
+    margin:auto;
+}
+
+#form-section{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+/* Search input  */
+#search-input{
+ flex: 3;
+ font-size: 18px;
+ padding:15px;
+ font-weight: 500;
+ font-family: 'Segoe UI', sans-serif;
+ color:#333;
+ border:3px solid rgba(0,0,0,0.0);
+ border-radius: 5px 0 0 5px;
+}
+#search-input:focus{
+    border:3px solid rgba(0,0,0,0.2);
+}
+#search-input:focus-visible{
+    border:3px solid rgba(0,0,0,0.2);
+    outline: none;
+}
+/* Button  */
+#search-button{
+    flex:1;
+    font-size: 18px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    background:#fa2372;
+    color:white;
+    border-radius: 0 5px 5px 0;
+    border:3px solid #fa2372;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding-left:15px;
+    padding-right:15px;
+}
+#search-button:hover{
+    background:#fa6323;
+    border:3px solid #fa6323;
+}
+
+/* Weather info */
+#weather-info{
+    margin:50px auto;
+}
+#info-parent{
+    display:grid;
+    grid-template-columns: repeat(1fr, 1);
+    grid-row-gap: 10px;
+    justify-items: center;
+    font-family: 'Open sans', serif;
+    color:white;
+    text-align: center;
+}
+#info-parent h2{
+    font-size: 42px;
+}
+#info-parent h4{
+    font-size: 26px;
+    font-weight: 400;
+}
+#info-parent p{
+    font-size: 26px;
+    font-weight: 400;
+}
+#info-parent img{
+    width: 100px;
+}
