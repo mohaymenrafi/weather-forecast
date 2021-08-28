@@ -16,6 +16,13 @@ body{
     max-width: 600px;
     margin:auto;
 }
+@media screen and (max-width:500px) {
+    .container{
+        max-width: 100%;
+        margin:auto;
+        padding:0 15px;
+    }
+}
 
 #form-section{
     /* text-align: center; */
