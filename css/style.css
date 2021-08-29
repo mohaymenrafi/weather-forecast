@@ -7,7 +7,6 @@ body{
     background:url(../images/bg-image.jpg) no-repeat center top;
     background-size: cover;
     min-height: 100vh;
-    min-width: 100vw;
     padding:50px;
 }
 
