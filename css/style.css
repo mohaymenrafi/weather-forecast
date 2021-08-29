@@ -15,13 +15,13 @@ body{
     max-width: 300px;
     margin:auto;
 }
-@media screen and (max-width:500px) {
+/* @media screen and (max-width:500px) {
     .container{
         max-width: 100%;
         margin:auto;
         padding:0 15px;
     }
-}
+} */
 
 #form-section{
     /* text-align: center; */
@@ -31,7 +31,7 @@ body{
 }
 /* Search input  */
 #search-input{
- flex: 3;
+ /* flex: 3; */
  font-size: 18px;
  padding:15px;
  font-weight: 500;
